@@ -1,4 +1,4 @@
-import image from "../assets/Banner.jpg";
+import image from "../assets/banner-3.jpg";
 import { SectionBanner } from "../styled";
 
 export default function Banner() {

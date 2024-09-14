@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HeaderCabec = styled.header`
     display: flex;
     align-items: center;
-    background-color: #D2E0FB;
+    background-color: #6b2293;
     width: 100%;
     height: 100px;
 
@@ -43,13 +43,19 @@ export const HeaderCabec = styled.header`
 `
 
 export const MainCorpo = styled.main`
-    
 
-    .Anuncios{
+    .pesquisa{
         display: flex;
-        gap: 35px;
         justify-content: center;
+        margin-top: 20px;
     }
+    .pesquisa input{
+        height: 30px;
+        width: 700px;
+    }
+
+   
+   
 
 `
 export const SectionBanner = styled.section`
@@ -57,7 +63,7 @@ export const SectionBanner = styled.section`
     width: 100%;
     height: 300px;
     object-fit: cover;
-    margin-top: 5px;
+
    }
    
 `
@@ -65,6 +71,7 @@ export const SectionBanner = styled.section`
 export const SectionAnunc1 = styled.section`
     .container{
         display: flex;
+        justify-content: center;
         gap: 5px;
         margin-top: 20px;
     }
@@ -116,6 +123,60 @@ export const SectionAnunc1 = styled.section`
     padding-top: 10px;
     font-size: smaller;
    }
+`
+export const SectionServic = styled.section`
+     .secao-servico {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .secao-servico h4 {
+            margin-top: 0;
+            color: #333;
+            text-align: center;
+        }
+
+        .servicos-lista {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .servicos-lista li {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .servicos-lista li:last-child {
+            border-bottom: none;
+        }
+
+        .servico-titulo{
+            font-weight: bold;
+            color: #555;
+        }
+
+        .servico-descricao {
+            color: #777;
+        }
+
+`
+
+
+
+export const FooterRodape = styled.footer`
+    display: flex;
+    background-color: black;
+    color: white;
+ 
+   align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
 `
 
 
