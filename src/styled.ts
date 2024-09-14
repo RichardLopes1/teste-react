@@ -9,7 +9,7 @@ export const HeaderCabec = styled.header`
 
     nav{
         display: flex;
-        margin-left: 60%;
+        margin-left: 66%;
         
     }
 
@@ -169,14 +169,47 @@ export const SectionServic = styled.section`
 
 
 export const FooterRodape = styled.footer`
-    display: flex;
+   display: flex;
+   gap: 10rem;
+   justify-content: center;
     background-color: black;
     color: white;
  
-   align-items: center;
-    justify-content: center;
+   
+   
     width: 100%;
-    height: 50px;
+    height: 100px;
+
+    .lojas_rodape {
+    text-align: center;
+    justify-content: justify;
+    
+    
+    }
+
+    >.lojas_rodape p{
+        color: #6b2293;
+    }
+    .canais_duvidas{
+    text-align: center;
+    justify-content: justify;      
+    }
+
+    .canais_duvidas ul li{
+        list-style: none;
+        color: #6b2293;
+    }
+
+
+    .redes ul li {
+        list-style: none;
+        text-align: center;
+    }
+
+    .redes ul li a{
+        text-decoration: none;
+        color: #6b2293;
+    }
 `
 
 
